@@ -13,3 +13,16 @@ The script should use the `curl` command to send HTTP GET requests to each websi
 * Formatting output. The results should be clearly formatted, for example: "[https://google.com](https://google.com/) is UP" or "[https://twitter.com](https://twitter.com/) is DOWN".
 * Output information. After running the script, a message should be displayed indicating that the results have been written to a file with its name.
 
+### Solution
+
+The bash file is `website_status.sh` and a log file is `website_status.log`.
+
+## Task2
+
+Clone `FastAPI` application, configure and run it in Docker container. Verify correctness of application's work and connection to the database.
+
+### Step-by-step instruction
+ * Clone repository using command `git clone https://github.com/GoIT-Python-Web/Computer-Systems-hw02`. Navigate to cloned directory.
+ * Create `Dockerfile` with instructions for building Docker image of the application.
+ * Create `docker-compose.yaml` with configuration for application and PostgreSQL.
+ * Use Docker Compose to build environment, run command `docker-compose up` to start environment.

@@ -26,3 +26,10 @@ Clone `FastAPI` application, configure and run it in Docker container. Verify co
  * Create `Dockerfile` with instructions for building Docker image of the application.
  * Create `docker-compose.yaml` with configuration for application and PostgreSQL.
  * Use Docker Compose to build environment, run command `docker-compose up` to start environment.
+
+### Solution
+
+The `Dockerfile` and the `docker-compose.yaml` are ready.
+
+Check is passed
+![Check is passed](./data/hw_done.jpg)
